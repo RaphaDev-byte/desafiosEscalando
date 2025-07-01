@@ -1,0 +1,74 @@
+Projetos Simples → Intermediários
+Hello World
+
+Imprima “Hello, World!” no console.
+
+
+Calculadora de Soma
+
+Programa que pede dois números e mostra a soma.
+
+
+Contador
+
+Um app simples que aumenta/diminui um número quando você clica em botões.
+
+
+Lista de Compras (CLI)
+
+Adicione itens à lista, remova e mostre a lista no terminal.
+
+
+To-Do List (Web Simples)
+
+Adicione/remova tarefas em uma lista no navegador.
+
+
+Conversor de Temperatura
+
+Converta Celsius para Fahrenheit e vice-versa.
+
+
+Jogo da Adivinhação
+
+O programa escolhe um número aleatório e você tenta adivinhar.
+Relógio Digital
+
+Mostra a hora atual e atualiza em tempo real.
+
+
+
+CRUD de Usuários (Simples)
+
+Crie, leia, atualize e delete usuários em um array.
+
+
+API de Livros ou Filmes (sem banco de dados)
+
+Faça um CRUD usando Node.js e Express, armazenando dados numa variável.
+
+
+CRUD com Persistência em Arquivo
+
+Salve os dados em um arquivo JSON ao invés de só na memória.
+
+
+
+To-Do List com LocalStorage
+
+No navegador, salve as tarefas para não perder ao fechar a página.
+
+
+Consumo de API Externa
+
+Faça requisições para uma API de clima, piadas, etc., e mostre os dados.
+
+
+Autenticação Simples
+
+Login/logout com usuário e senha armazenados localmente.
+
+
+CRUD com Banco de Dados (SQLite, MongoDB, etc)
+
+Faça um CRUD salvando dados em um banco de verdade.
