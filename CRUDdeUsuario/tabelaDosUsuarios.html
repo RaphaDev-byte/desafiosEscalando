@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela dos usuarios</title>
+</head>
+<body>
+    <table id="tabelaUsuarios">
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>email</th>
+                <th>idade</th>
+                <th>password</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <script>
+        window.onload = function() {
+    let usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
+    const tabela = document.getElementById('tabelaUsuarios').getElementsByTagName('tbody')[0];
+
+    usuarios.forEach(usuario => {
+        const novaLinha = tabela.insertRow();
+        novaLinha.insertCell(0).textContent = usuario.nome;
+        novaLinha.insertCell(1).textContent = usuario.email;
+        novaLinha.insertCell(2).textContent = usuario.idade;
+        novaLinha.insertCell(3).textContent = usuario.password;
+    })} ;
+</script>
+</body>
+</html>

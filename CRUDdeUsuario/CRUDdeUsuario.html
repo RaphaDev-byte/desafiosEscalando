@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Usuario</title>
+</head>
+<body>
+    <header>
+        <a href="tabelaDosUsuarios.html">listaDeUsuarios</a>
+    </header>
+    <main>
+        <h1>cadastro de Usuario</h1>
+        <form method="post" id="formUsuario">
+            <label for="name"  name="name"></label>
+            <label for="email" name="email"></label>
+            <label for="password" name="password"></label>
+            <label for="idade" name="idade"></label>
+            <input type="text" id="name" name="name" placeholder="Nome do Usuario" required>
+            <input type="email" id="email" name="email" placeholder="Email do Usuario" required>
+            <input type="password" id="password" name="password" placeholder="Senha do Usuario" required >
+            <input type="number" id="idade" name="idade" placeholder="Idade do Usuario" required>
+            <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+
+        </form>
+                <footer></footer>
+    </main>
+    <script src="CRUDdeUsuario.js"></script>
+</body>
+</html>
